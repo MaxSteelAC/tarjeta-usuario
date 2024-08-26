@@ -14,4 +14,47 @@ body {
   width: 450px;
   height: 600px;
   background-color: aliceblue;
+  border-radius: 20px;
+}
+
+#header-container {
+  height: 30%;
+  background-image: url(https://wallpaper.forfun.com/fetch/96/96128a917659c1a358a28a9d6f58475b.jpeg);
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  position: relative;
+  bottom: -30px;
+  border-radius: 80px;
+  border: cyan 5px solid;
+}
+
+#information-container {
+  height: 55%;
+  background-color:rgba(255 255 255 1);
+}
+
+.user-name {
+  text-align: center;
+  margin-top: 50px;
+
+  & h4{
+    font-style: italic;
+    color: #a05d5d;
+    
+  }
+}
+
+
+#footer-container {
+  height: 15%;
+  background-color: rgba(255 255 255 1);
 }

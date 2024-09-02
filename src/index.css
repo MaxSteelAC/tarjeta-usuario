@@ -1,1 +1,112 @@
+html, body {
+  height: 100%; 
+  padding: 0;
+  margin: 0;  
+}
+  
+body {
+  background-image: linear-gradient(to bottom left, #ff3867 ,  #ffc873 ,  #d37ec6);
+  display: grid;
+  place-items: center;
+}
+  
+#container {
+  width: 450px;
+  height: 600px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, /*
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,*/
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,/*
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, */
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#header-container {
+  height: 30%;
+  background-image: url(https://wallpaper.forfun.com/fetch/96/96128a917659c1a358a28a9d6f58475b.jpeg);
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 
+.avatar {
+  width: 128px;
+  height: 128px;
+  position: relative;
+  bottom: -30px;
+  border-radius: 80px;
+  border: cyan 3px solid;
+}
+
+#information-container {
+  height: 50%;
+  background-color:rgba(255 255 255 1);
+}
+
+.user-name {
+  text-align: center;
+  margin-top: 50px;
+
+  & h4{
+    font-style: italic;
+    color: #a05d5d; 
+  }
+}
+
+#footer-container {
+  height: 15%;
+  background-color: rgba(255 255 255 1);
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #b3d4ac;
+}
+
+.footer-links-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  & li {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  
+    & .footer{
+      font-family: "Poppins", system-ui;
+      font-weight: 300;
+      font-style: normal;
+      color:  #888888;
+    }
+  }
+}
+
+.text{
+  margin: 20px;
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.button-content {
+  text-align: center;
+
+  & .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #63fe3e;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+  }
+}

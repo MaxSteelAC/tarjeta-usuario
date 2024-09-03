@@ -1,15 +1,15 @@
 html, body {
   height: 100%; 
   padding: 0;
-  margin: 0;  
-}
-  
+  margin: 0;
+} 
+
 body {
   background-image: linear-gradient(to bottom left, #ff3867 ,  #ffc873 ,  #d37ec6);
   display: grid;
   place-items: center;
 }
-  
+
 #container {
   width: 450px;
   height: 600px;
@@ -25,6 +25,7 @@ body {
     rgba(0, 0, 0, 0.09) 0px 16px 8px, 
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
 #header-container {
   height: 30%;
   background-image: url(https://wallpaper.forfun.com/fetch/96/96128a917659c1a358a28a9d6f58475b.jpeg);
